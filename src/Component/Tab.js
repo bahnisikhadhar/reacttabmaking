@@ -2,6 +2,7 @@ import {useState} from "react";
 
 export default function Tab(){
     const [toggle,setToggle] = useState(1);
+    
     function handleclick(index){
       setToggle(index);
     }
