@@ -33,6 +33,20 @@ export default function Tab(){
 
             <div className={(toggle===2)? "content content2 display_content" : "content"}>
                 <p><b> From TAB2 </b>: Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quia accusantium expedita ipsum eligendi, praesentium incidunt, sunt adipisci natus accusamus perferendis magni maiores! Quibusdam delectus ullam rerum non excepturi placeat!</p>
+                <table>
+                    <thead>
+                        <tr>
+                        <th>Name</th>
+                        <th>Contact</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Bahni</td>
+                            <td>123456</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
             <div className={(toggle===3)? "content content3 display_content" : "content"}>
